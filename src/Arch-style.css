@@ -1,0 +1,114 @@
+:root {
+  --btn-profile: #e27d5f;
+  --font: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #7ec5b5;
+}
+.navbar {
+  margin-bottom: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+a .btn {
+  font: var(--font);
+}
+
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+a,
+.btn {
+  font-size: 15px;
+}
+.navbar {
+  padding-bottom: 10px;
+}
+#Profile:hover,
+#Profile-Page:hover,
+#Arch-port:hover,
+#Code-port:hover {
+  color: #e27d5f;
+}
+#contact:hover,
+#contact-page:hover,
+#arch-cv:hover,
+#front-cv:hover {
+  color: #40b3a2;
+}
+#Home:hover {
+  color: #83cdce;
+}
+#name-z:hover {
+  color: #7dc2ad;
+}
+#skill-page:hover {
+  color: #bc8e9b;
+}
+
+.container {
+  padding: 40px 20px;
+}
+.heading {
+  padding: 20px;
+}
+.row-arch {
+  padding: 20px;
+}
+#arch-col {
+  padding-top: 20px;
+}
+#bar-coding {
+  padding-bottom: 30px;
+}
+.heading {
+  margin-top: -5%;
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-profile {
+  background: var(--btn-profile);
+  border-radius: 20px;
+  padding: 10px;
+}
+.container-A {
+  display: flex;
+  padding: 20px;
+}
+#quali-page:hover {
+  color: #e8a87c;
+}
